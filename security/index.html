@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security — CAPA Resolve</title>
+  <meta name="description" content="CAPA Resolve's security posture: how we approach infrastructure, access control, and responsible disclosure.">
+  <link rel="canonical" href="https://caparesolve.com/security">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+  <div class="site-banner">
+    <p>The CAPA Resolve website is now live ahead of the full platform rollout. Some features and services are still being prepared. &nbsp;<a href="/contact">Get in touch</a>.</p>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="/" class="logo"><span class="logo-mark">CR</span> CAPA Resolve</a>
+      <nav class="site-nav">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/faq">FAQ</a>
+        <a href="/contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <div class="page-header">
+      <div class="container">
+        <h1>Security</h1>
+        <p class="page-lead">Our approach to protecting this website and the infrastructure behind it.</p>
+        <p class="last-updated">Last updated: April 2026</p>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="container">
+
+        <div class="notice">
+          This page describes CAPA Resolve's current security approach in plain language. We do not claim certifications, audit reports, or compliance frameworks that have not been confirmed. This page will be updated as the platform matures and as additional security controls are implemented.
+        </div>
+
+        <h2>Our approach</h2>
+        <p>Security is a core operational concern at CAPA Resolve, not an afterthought. Because the CAPA platform is designed to handle sensitive dispute and case information, we apply a deliberate, conservative approach to how infrastructure is built, accessed, and maintained &mdash; starting from the beginning of the platform's development, not as a retrofit.</p>
+        <p>At this stage, the public website is a minimal static site. The security principles described below reflect the approach we are applying as the platform is built, not claims about production capabilities that do not yet exist.</p>
+
+        <h2>Least privilege</h2>
+        <p>Access to systems, data, and infrastructure is granted on a minimum-necessary basis. Individuals and services receive only the access they require to perform their specific function. We do not use shared credentials or broadly-permissioned accounts. Access is reviewed as roles and responsibilities change.</p>
+
+        <h2>Auditability</h2>
+        <p>We design infrastructure to produce clear, tamper-resistant audit logs of access and changes. Administrative actions, data access events, and configuration changes should be traceable. The intent is to ensure that any anomaly can be identified and investigated, and that a reliable record exists for any security review.</p>
+
+        <h2>Controlled disclosure</h2>
+        <p>Sensitive information &mdash; whether belonging to users or to internal operations &mdash; is disclosed only to those with a demonstrated need to receive it, within clearly defined boundaries. This applies both to how the platform handles user data and to how we handle information internally. CAPA's design principle is that unnecessary exposure is itself a risk.</p>
+
+        <h2>Secure infrastructure</h2>
+        <p>This public website is served over HTTPS with strict transport security headers applied. We use reputable, well-maintained hosting and infrastructure providers. Dependencies are kept minimal to reduce attack surface.</p>
+        <p>As the CAPA platform is built out, production infrastructure will be isolated by environment, and access will be gated by strong authentication. Specific infrastructure choices will be documented in the <a href="/subprocessors">Subprocessors</a> page as they are confirmed.</p>
+
+        <h2>Ongoing hardening</h2>
+        <p>Security is not a one-time configuration. We treat it as an ongoing practice: reviewing configuration, monitoring for anomalies, updating dependencies, and reviewing access permissions as the platform evolves. We do not rely solely on infrastructure defaults.</p>
+
+        <h2>What we are not claiming</h2>
+        <p>We do not currently hold any formal security certifications (such as SOC 2, ISO 27001, or similar). We have not undergone a third-party penetration test at this stage of development. We do not claim compliance with specific regulatory frameworks beyond what is strictly applicable to our current operating context.</p>
+        <p>We will update this page as formal security reviews, certifications, or assessments are completed. We believe it is more credible to be accurate about our current position than to claim a security posture we cannot yet evidence.</p>
+
+        <h2>Security contact</h2>
+        <p>If you believe you have identified a security vulnerability in this website or in CAPA Resolve's infrastructure, please contact us responsibly before any public disclosure. We ask that you give us reasonable time to investigate and address the issue.</p>
+        <ul>
+          <li>Email: <a href="mailto:legal@caparesolve.com">legal@caparesolve.com</a> &mdash; use "Security Disclosure" in the subject line</li>
+          <li>Privacy-related security concerns: <a href="mailto:privacy@caparesolve.com">privacy@caparesolve.com</a></li>
+        </ul>
+        <p>We do not offer a formal bug bounty programme at this time, but we take all responsible disclosures seriously and will acknowledge your report.</p>
+
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <p class="footer-brand">CAPA Resolve</p>
+          <p class="footer-tagline">Dispute resolution and case support for individuals.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/status">Status</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal &amp; Trust</h4>
+          <ul>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/terms">Terms of Use</a></li>
+            <li><a href="/security">Security</a></li>
+            <li><a href="/hipaa">HIPAA</a></li>
+            <li><a href="/compliance">Compliance</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Policies</h4>
+          <ul>
+            <li><a href="/cookies">Cookies</a></li>
+            <li><a href="/acceptable-use">Acceptable Use</a></li>
+            <li><a href="/data-requests">Data Requests</a></li>
+            <li><a href="/subprocessors">Subprocessors</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 CAPA Resolve. All rights reserved.</p>
+        <p><a href="/privacy">Privacy</a> &nbsp;&middot;&nbsp; <a href="/terms">Terms</a> &nbsp;&middot;&nbsp; <a href="/contact">Contact</a></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
