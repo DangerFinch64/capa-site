@@ -6,17 +6,32 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://caparesolve.com/about</loc>
+    <loc>https://caparesolve.com/how-it-works</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://caparesolve.com/contact</loc>
+    <loc>https://caparesolve.com/pricing</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://caparesolve.com/disputes</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://caparesolve.com/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://caparesolve.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://caparesolve.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -38,41 +53,41 @@
   <url>
     <loc>https://caparesolve.com/hipaa</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://caparesolve.com/compliance</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://caparesolve.com/cookies</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://caparesolve.com/acceptable-use</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://caparesolve.com/data-requests</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://caparesolve.com/cookies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://caparesolve.com/acceptable-use</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://caparesolve.com/subprocessors</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://caparesolve.com/status</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.3</priority>
   </url>
   <url>
     <loc>https://caparesolve.com/sms-consent</loc>
     <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://caparesolve.com/status</loc>
+    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
 </urlset>
