@@ -204,25 +204,25 @@ img {
   cursor: pointer;
 }
 
-.btn-primary {
+.btn.btn-primary {
   background: #2563eb;
   color: #ffffff;
   border: 1.5px solid #2563eb;
 }
 
-.btn-primary:hover {
+.btn.btn-primary:hover {
   background: #1d4ed8;
   border-color: #1d4ed8;
   color: #ffffff;
 }
 
-.btn-ghost {
+.btn.btn-ghost {
   background: transparent;
   color: #c8d8ef;
   border: 1.5px solid rgba(255,255,255,0.2);
 }
 
-.btn-ghost:hover {
+.btn.btn-ghost:hover {
   border-color: rgba(255,255,255,0.55);
   color: #ffffff;
 }
