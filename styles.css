@@ -921,6 +921,43 @@ img {
   margin-bottom: 0;
 }
 
+/* --- Footer Partners -------------------------------------- */
+.footer-partners {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 22px 0 26px;
+  border-top: 1px solid #0f1f38;
+}
+
+.footer-partners-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #334155;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.footer-partner-link {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.65;
+  transition: opacity 0.15s;
+  text-decoration: none;
+}
+
+.footer-partner-link:hover {
+  opacity: 1;
+}
+
+.footer-partner-logo {
+  height: 26px;
+  width: auto;
+  display: block;
+}
+
 /* --- Responsive ------------------------------------------- */
 @media (max-width: 768px) {
   .site-header .container {
@@ -984,5 +1021,11 @@ img {
   .principles li {
     flex-direction: column;
     gap: 6px;
+  }
+
+  .footer-partners {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
   }
 }
