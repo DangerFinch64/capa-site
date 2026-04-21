@@ -941,23 +941,33 @@ img {
 }
 
 .footer-partner-link {
-  display: inline-flex;
-  align-items: center;
+  display: inline-block;
   opacity: 0.65;
   transition: opacity 0.15s;
   text-decoration: none;
-  flex-shrink: 0;
+  flex: 0 0 auto;
 }
 
 .footer-partner-link:hover {
   opacity: 1;
 }
 
-.footer-partner-logo {
-  width: 100px;
-  max-width: 100px; /* override global img { max-width: 100% } */
-  height: auto;
+/* Hard container cap — overflow:hidden is the physical backstop */
+.footer-partner-badge {
   display: block;
+  width: 100px;
+  max-width: 100px;
+  overflow: hidden;
+}
+
+/* High-specificity rule with !important so no global img rule can blow this up */
+.footer-partners .footer-partner-badge img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  display: block !important;
+  object-fit: contain;
 }
 
 /* --- Responsive ------------------------------------------- */
@@ -1031,9 +1041,8 @@ img {
     gap: 8px;
   }
 
-  .footer-partner-logo {
+  .footer-partner-badge {
     width: 88px;
     max-width: 88px;
-    height: auto;
   }
 }
