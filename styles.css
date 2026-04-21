@@ -954,10 +954,9 @@ img {
 }
 
 .footer-partner-logo {
-  height: 18px;
-  max-height: 18px;
-  width: auto;
-  max-width: none; /* override global img { max-width: 100% } — height drives sizing */
+  width: 100px;
+  max-width: 100px; /* override global img { max-width: 100% } */
+  height: auto;
   display: block;
 }
 
@@ -1033,7 +1032,8 @@ img {
   }
 
   .footer-partner-logo {
-    height: 16px;
-    max-height: 16px;
+    width: 88px;
+    max-width: 88px;
+    height: auto;
   }
 }
