@@ -946,6 +946,7 @@ img {
   opacity: 0.65;
   transition: opacity 0.15s;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .footer-partner-link:hover {
@@ -953,8 +954,10 @@ img {
 }
 
 .footer-partner-logo {
-  height: 26px;
+  height: 18px;
+  max-height: 18px;
   width: auto;
+  max-width: none; /* override global img { max-width: 100% } — height drives sizing */
   display: block;
 }
 
@@ -1027,5 +1030,10 @@ img {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+  }
+
+  .footer-partner-logo {
+    height: 16px;
+    max-height: 16px;
   }
 }
