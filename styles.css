@@ -116,14 +116,6 @@ img {
   flex-shrink: 0;
 }
 
-.logo-mark-img {
-  width: 28px;
-  height: 28px;
-  border-radius: 5px;
-  flex-shrink: 0;
-  vertical-align: middle;
-}
-
 .site-nav {
   display: flex;
   align-items: center;
@@ -628,19 +620,6 @@ img {
   color: #475569;
   line-height: 1.6;
   max-width: 200px;
-}
-
-.footer-logo-link {
-  display: inline-block;
-  margin-bottom: 10px;
-}
-
-.footer-logo-img {
-  max-width: 170px;
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-  display: block;
 }
 
 .footer-col h4 {
